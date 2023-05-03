@@ -1,0 +1,232 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins';
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url(/poppins/Poppins-Regular.ttf);
+    src: url(/poppins/Poppins-Medium.ttf);
+    /* src: url(); */
+}
+
+.Course{
+    font-weight: 800 !important;
+    font-size: 30px !important;
+    line-height: 48px;
+
+}
+
+.finity{
+    color: #8FA43D;
+}
+
+.nav-list{
+    font-style: normal;
+    font-weight: 500 !important;
+    font-size: 18px;
+    line-height: 36px;
+}
+
+.nav-info1{
+    color: #8FA43D !important;
+    text-decoration: underline;
+}
+
+.nav-info{
+    color: #000 !important;
+    text-decoration: none;
+    /* font-size: 20px !important; */
+}
+
+a:active, a:hover{
+    color: #8FA43D !important;
+    text-decoration: underline !important;
+    line-height: 39px;
+}
+
+.login-btn{
+    background-image: url(/images/shape1.png);
+    background-size: cover;
+    background-position: center;
+    border: none;
+    color: #8FA43D;
+    width: 120px;
+    height: 40px;
+}
+
+.signup-btn{
+    background-image: url(/images/shape2.png);
+    background-size: cover;
+    background-position: center;
+    border: none;
+    color: #fff;
+    width: 120px;
+    height: 40px;
+    margin-left: 30px !important;
+}
+
+.first-sec{
+    margin-top: 100px;
+}
+
+.leaf-one{
+    position: absolute;
+    background-image: url(/images/leaf\ first.png);
+    background-position: center;
+    background-size: cover;
+    width: 10px;
+    height: 27px;
+    margin-left: 460px;
+    margin-top: -20px;
+}
+
+.leaf-two{
+    position: absolute;
+    background-image: url(/images/leaf\ big.png);
+    background-position: center;
+    background-size: cover;
+    width: 20px;
+    height: 34px;
+    margin-left: 470px;
+    margin-top: -27px;
+}
+
+.leaf-three{
+    position: absolute;
+    background-image: url(/images/leaf\ last.png);
+    background-position: center;
+    background-size: cover;
+    width: 22px;
+    height: 15px;
+    margin-left: 474px;
+    margin-top: -7px;
+}
+
+.improve1{
+    font-weight: 800;
+    font-size: 52px;
+    line-height: 70px;
+    color: #8FA43D;
+}
+
+.line{
+    background-image: url(/images/Line\ 969.png);
+    background-size: cover;
+    background-position: center;
+    width: 150px;
+    height: 14px;
+    position: absolute;
+    margin-top:78px;
+}
+
+.improve{
+    font-weight: 800;
+    font-size: 52px;
+    line-height: 80px;
+}
+
+.improve-body{
+    font-size: 15px;
+    line-height: 28px;
+}
+
+.watch-btn{
+    background-image: url(/images/shape1.png);
+    background-size: cover;
+    background-position: center;
+    border: none;
+    color: #8FA43D;
+    width: 150px;
+    height: 50px;
+    margin-left: 30px !important;
+}
+
+.getstarted-btn{
+    background-image: url(/images/shape2.png);
+    background-size: cover;
+    background-position: center;
+    border: none;
+    color: #fff;
+    width: 150px;
+    height: 50px;
+}
+
+.play{
+    background-image: url(/images/play.png);
+    background-position: center;
+    background-size: cover;
+    width: 10px;
+    height: 10px;
+    margin-left: 37px;
+    margin-top: -19px;
+}
+
+.first-box{
+    /* background: url(/images/Rectangle\ first.png); */
+    background: #6898E1;
+    margin: auto;
+    width: fit-content;
+    position: absolute;
+    margin-left: 350px !important;
+    margin-top: 50px;
+    width: 340px;
+}
+
+.first-img{
+    background-image: url(/images/first\ image.png);
+    background-position: center;
+    background-size: cover;
+    width: 340px !important;
+    height: 480px !important;
+    
+}
+
+.second-box{
+    /* background: url(/images/Rectangle\ first.png); */
+    background: #8FA43D;
+    /* margin: auto; */
+    width: fit-content;
+    position: absolute;
+    margin-left: 750px !important;
+    margin-top: -100px;
+    width: 300px;
+}
+
+.second-img{
+    background-image: url(/images/middleman.png);
+    background-position: center;
+    background-size: cover;
+    width: 280px !important;
+    height: 480px !important;
+}
+
+.third-box{
+    /* background: url(/images/Rectangle\ first.png); */
+    background: #CCDCF4;
+    margin: auto;
+    width: fit-content;
+    position: absolute;
+    margin-left: 1100px !important;
+    margin-top: -250px;
+    width: 300px;
+}
+
+.third-img{
+    background-image: url(/images/last\ image.png);
+    background-position: center;
+    background-size: cover;
+    width: 280px !important;
+    height: 470px !important;
+}
+
+
+
+@media screen and (max-width: 991px){
+    .third-box{
+        margin-left: 100px !important;
+        margin-top: 50px;
+        width: 100px;;
+    }
+}
