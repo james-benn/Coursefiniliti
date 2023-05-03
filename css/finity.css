@@ -8,7 +8,6 @@
     font-family: 'Poppins';
     src: url(/poppins/Poppins-Regular.ttf);
     src: url(/poppins/Poppins-Medium.ttf);
-    /* src: url(); */
 }
 
 .Course{
@@ -73,7 +72,7 @@ a:active, a:hover{
 
 .leaf-one{
     position: absolute;
-    background-image: url(/images/leaf\ first.png);
+    background-image: url(/images/leaffirst.png);
     background-position: center;
     background-size: cover;
     width: 10px;
@@ -84,7 +83,7 @@ a:active, a:hover{
 
 .leaf-two{
     position: absolute;
-    background-image: url(/images/leaf\ big.png);
+    background-image: url(/images/leafbig.png);
     background-position: center;
     background-size: cover;
     width: 20px;
@@ -95,7 +94,7 @@ a:active, a:hover{
 
 .leaf-three{
     position: absolute;
-    background-image: url(/images/leaf\ last.png);
+    background-image: url(/images/leaflast.png);
     background-position: center;
     background-size: cover;
     width: 22px;
@@ -112,7 +111,7 @@ a:active, a:hover{
 }
 
 .line{
-    background-image: url(/images/Line\ 969.png);
+    background-image: url(/images/Line969.png);
     background-size: cover;
     background-position: center;
     width: 150px;
@@ -164,7 +163,6 @@ a:active, a:hover{
 }
 
 .first-box{
-    /* background: url(/images/Rectangle\ first.png); */
     background: #6898E1;
     margin: auto;
     width: fit-content;
@@ -175,7 +173,7 @@ a:active, a:hover{
 }
 
 .first-img{
-    background-image: url(/images/first\ image.png);
+    background-image: url(/images/firstimage.png);
     background-position: center;
     background-size: cover;
     width: 340px !important;
@@ -184,9 +182,7 @@ a:active, a:hover{
 }
 
 .second-box{
-    /* background: url(/images/Rectangle\ first.png); */
     background: #8FA43D;
-    /* margin: auto; */
     width: fit-content;
     position: absolute;
     margin-left: 750px !important;
@@ -203,7 +199,6 @@ a:active, a:hover{
 }
 
 .third-box{
-    /* background: url(/images/Rectangle\ first.png); */
     background: #CCDCF4;
     margin: auto;
     width: fit-content;
@@ -214,19 +209,9 @@ a:active, a:hover{
 }
 
 .third-img{
-    background-image: url(/images/last\ image.png);
+    background-image: url(/images/lastimage.png);
     background-position: center;
     background-size: cover;
     width: 280px !important;
     height: 470px !important;
-}
-
-
-
-@media screen and (max-width: 991px){
-    .third-box{
-        margin-left: 100px !important;
-        margin-top: 50px;
-        width: 100px;;
-    }
 }
