@@ -169,17 +169,17 @@ a:active, a:hover{
     margin: auto;
     width: fit-content;
     position: absolute;
-    margin-left: 350px !important;
+    margin-left: 250px !important;
     margin-top: 50px;
-    width: 340px;
+    width: 270px;
 }
 
 .first-img{
     background-image: url(/images/first\ image.png);
     background-position: center;
     background-size: cover;
-    width: 340px !important;
-    height: 480px !important;
+    width: 260px !important;
+    height: 330px !important;
     
 }
 
@@ -189,17 +189,17 @@ a:active, a:hover{
     /* margin: auto; */
     width: fit-content;
     position: absolute;
-    margin-left: 750px !important;
+    margin-left: 570px !important;
     margin-top: -100px;
-    width: 300px;
+    width: 250px;
 }
 
 .second-img{
     background-image: url(/images/middleman.png);
     background-position: center;
     background-size: cover;
-    width: 280px !important;
-    height: 480px !important;
+    width: 230px !important;
+    height: 370px !important;
 }
 
 .third-box{
@@ -208,25 +208,25 @@ a:active, a:hover{
     margin: auto;
     width: fit-content;
     position: absolute;
-    margin-left: 1100px !important;
+    margin-left: 870px !important;
     margin-top: -250px;
-    width: 300px;
+    width: 260px;
 }
 
 .third-img{
     background-image: url(/images/last\ image.png);
     background-position: center;
     background-size: cover;
-    width: 280px !important;
-    height: 470px !important;
+    width: 240px !important;
+    height: 400px !important;
 }
 
 
 
-@media screen and (max-width: 991px){
+/* @media screen and (max-width: 991px){
     .third-box{
         margin-left: 100px !important;
         margin-top: 50px;
         width: 100px;;
     }
-}
+} */
