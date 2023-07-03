@@ -6,8 +6,8 @@
 
 @font-face {
     font-family: 'Poppins';
-    src: url(/poppins/Poppins-Regular.ttf);
-    src: url(/poppins/Poppins-Medium.ttf);
+    src: url(../poppins/Poppins-Regular.ttf);
+    src: url(../poppins/Poppins-Medium.ttf);
     /* src: url(); */
 }
 
@@ -47,7 +47,7 @@ a:active, a:hover{
 }
 
 .login-btn{
-    background-image: url(/images/shape1.png);
+    background-image: url(../images/shape1.png);
     background-size: cover;
     background-position: center;
     border: none;
@@ -57,7 +57,7 @@ a:active, a:hover{
 }
 
 .signup-btn{
-    background-image: url(/images/shape2.png);
+    background-image: url(../images/shape2.png);
     background-size: cover;
     background-position: center;
     border: none;
@@ -73,7 +73,7 @@ a:active, a:hover{
 
 .leaf-one{
     position: absolute;
-    background-image: url(/images/leaf\ first.png);
+    background-image: url(../images/leaf\ first.png);
     background-position: center;
     background-size: cover;
     width: 10px;
@@ -84,7 +84,7 @@ a:active, a:hover{
 
 .leaf-two{
     position: absolute;
-    background-image: url(/images/leaf\ big.png);
+    background-image: url(../images/leaf\ big.png);
     background-position: center;
     background-size: cover;
     width: 20px;
@@ -95,7 +95,7 @@ a:active, a:hover{
 
 .leaf-three{
     position: absolute;
-    background-image: url(/images/leaf\ last.png);
+    background-image: url(../images/leaf\ last.png);
     background-position: center;
     background-size: cover;
     width: 22px;
@@ -112,7 +112,7 @@ a:active, a:hover{
 }
 
 .line{
-    background-image: url(/images/Line\ 969.png);
+    background-image: url(../images/Line\ 969.png);
     background-size: cover;
     background-position: center;
     width: 150px;
@@ -133,7 +133,7 @@ a:active, a:hover{
 }
 
 .watch-btn{
-    background-image: url(/images/shape1.png);
+    background-image: url(../images/shape1.png);
     background-size: cover;
     background-position: center;
     border: none;
@@ -144,7 +144,7 @@ a:active, a:hover{
 }
 
 .getstarted-btn{
-    background-image: url(/images/shape2.png);
+    background-image: url(../images/shape2.png);
     background-size: cover;
     background-position: center;
     border: none;
@@ -154,7 +154,7 @@ a:active, a:hover{
 }
 
 .play{
-    background-image: url(/images/play.png);
+    background-image: url(../images/play.png);
     background-position: center;
     background-size: cover;
     width: 10px;
@@ -175,7 +175,7 @@ a:active, a:hover{
 }
 
 .first-img{
-    background-image: url(/images/first\ image.png);
+    background-image: url(../images/first\ image.png);
     background-position: center;
     background-size: cover;
     width: 260px !important;
@@ -195,7 +195,7 @@ a:active, a:hover{
 }
 
 .second-img{
-    background-image: url(/images/middleman.png);
+    background-image: url(../images/middleman.png);
     background-position: center;
     background-size: cover;
     width: 230px !important;
@@ -214,7 +214,7 @@ a:active, a:hover{
 }
 
 .third-img{
-    background-image: url(/images/last\ image.png);
+    background-image: url(../images/last\ image.png);
     background-position: center;
     background-size: cover;
     width: 240px !important;
