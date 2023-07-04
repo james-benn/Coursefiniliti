@@ -9,8 +9,69 @@
     <link rel="stylesheet" href="css/finity.css">
 </head>
 <body>
+        <!-- navigation bar -->
+        <nav class="navbar navbar-expand-lg shadow">
+            <div class="container">
+                <a class="navbar-brand fw-bolder fs-4 Course" href="#">Course<span class="finity">Finity</span></a>
+                <!-- <button class="login-3 px-1 pt-2 pb-2" type="submit">Enrol now</button> -->
+                <button class="navbar-toggler p-1" type="menu" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon" onclick='myFunction()'></span>
+                </button>
+    
+                <div class="collapse navbar-collapse" id="navbarSupportedContent myDiv">
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link fw-bold px-4" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fw-bold px-4" href="#">Courses</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fw-bold px-4" href="#">Testimonials</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fw-bold px-4" href="#">Mentor</a>
+                        </li>
+                        <!-- <li class="nav-item">
+                            <a class="nav-link fw-bold px-4" href="howitworks.html">How it works</a>
+                        </li> -->
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <button class="login-btn bg-white">Login</button>
+                        <button class="signup-btn ms-2 bg-white" >Signup</button>
+                    </form>
+                </div>
+            </div>
+            <div id="myDiv">
+                <ul class="navbar-nav mx-auto mb-2 mt-4 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link fw-bold px-4" href="#">Home</a>
+                    </li>
+                    <hr class="mt-1 mb-1">
+                    <li class="nav-item">
+                        <a class="nav-link fw-bold px-4" href="#">Courses</a>
+                    </li>
+                    <hr class="mt-1 mb-1">
+                    <li class="nav-item">
+                        <a class="nav-link fw-bold px-4" href="#">Testimonials</a>
+                    </li>
+                    <hr class="mt-1 mb-1">
+                    <li class="nav-item">
+                        <a class="nav-link login-link fw-bold px-4" href="#">Login</a>
+                    </li>
+                    <hr class="mt-1 mb-1">
+                    <li class="nav-item">
+                        <a class="nav-link login-link fw-bold px-4" href="#">Signup</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+
     <!-- navigation bar -->
-    <nav class="navbar navbar-expand-lg " id="mainNav">
+    <!-- <nav class="navbar navbar-expand-lg " id="mainNav">
         <div class="container">
             <a class="navbar-brand fw-bolder fs-4 Course" href="#page-top">Course<span class="finity">Finity</span></a>
             <button class="navbar-toggler text-uppercase font-weight-bold text-white rounded" type="button" style="background-color:rgb(45, 179, 149);"
@@ -33,31 +94,63 @@
                 <button class="login-btn bg-white">Login</button>
                 <button class="signup-btn ms-2 bg-white" >Signup</button>
             </div>
-        </div>
+        </div> -->
     </nav>
     <!-- end of navigation bar -->
     <!-- first section -->
     <div class="container first-sec">
-        <div class="line"></div>
-        <div class="leaf-one"></div>
-        <div class="leaf-two"></div>
-        <div class="leaf-three"></div>
-        <h1 class="improve"><span class="improve1">Improve</span> your Skill <br> With Different way</h1>
+            <div class="line"></div>
+            <div class="container grouped-leaf">
+                <div class="leaf-one"></div>
+                <div class="leaf-two"></div>
+                <div class="leaf-three"></div>
+            </div>
+            <div class="full-view">
+            <h1 class="improve"><span class="improve1">Improve</span> your Skill <br> With Different way</h1>
         <p class="improve-body">Get experience, Take training courses, Practice, Learn. Course <br> finity classes are taught by industry leaders excited to share <br> their tools, techniques, and professional journeys with you</p>
         <button class="getstarted-btn bg-white">Get Started</button>
         <button class="watch-btn bg-white"><span class="ms-3 mb-0 mt-0">Watch</span>
             <div class="play"></div>
         </button>
-        <div class="first-box">
-            <div class="first-img"></div>
+            </div>
+            <div class="mobile-view">
+            <h1 class="improve"><span class="improve1">Improve</span> your Skill With Different way</h1>
+        <p class="improve-body">Get experience, Take training courses, Practice, Learn. Course finity classes are taught by industry leaders excited to share their tools, techniques, and professional journeys with you</p>
+        <button class="getstarted-btn bg-white">Get Started</button>
+        <button class="watch-btn bg-white"><span class="ms-3 mb-0 mt-0">Watch</span>
+            <div class="play"></div>
+        </button>
+    </div>
+        <div class="row mobile-image-grid">
+            <div class="col-lg-4 col-md-6 col-sm-12 gy-4">
+                <div class=" border border-0 first-box-mobile">
+                    <div class="first-imgg"></div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 gy-4">
+                <div class=" border border-0 second-box-mobile">
+                    <div class="second-imgg"></div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 gy-4">
+                <div class=" border border-0 third-box-mobile">
+                    <div class="third-imgg"></div>
+                </div>
+            </div>
         </div>
-        <div class="second-box">
-            <div class="second-img"></div>
-        </div>
-        <div class="third-box">
-            <div class="third-img"></div>
+
+        <div class="image-group">
+            <div class="first-box">
+                <div class="first-img"></div>
+            </div>
+            <div class="second-box">
+                <div class="second-img"></div>
+            </div>
+            <div class="third-box">
+                <div class="third-img"></div>
+            </div>
         </div>
     </div>
 </body>
-<script src="js/app.js"></script>
+<script src="js/finility.js"></script>
 </html>
